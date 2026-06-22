@@ -27,7 +27,7 @@ BEGIN
     
     TRUNCATE TABLE bronze.crm_cust_info;
     
-    COPY bronze.crm_cust_info (cst_id, cst_key, cst_firstname, cst_lastname, cst_material_status, cst_gndr, cst_create_date)
+    COPY bronze.crm_cust_info (cst_id, cst_key, cst_firstname, cst_lastname, cst_martial_status, cst_gndr, cst_create_date)
     FROM 'C:\Users\sashi\OneDrive\Desktop\SOURCE_DATA_CRM\cust_info.csv'
     DELIMITER ',' CSV HEADER;
     
