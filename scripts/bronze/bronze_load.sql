@@ -1,14 +1,14 @@
+
 /*
 =========================================================
-Load Bronze Layer
+Load Bronze Layer - Development / Exploration Version
 =========================================================
 Purpose:
-    Load raw CSV data into Bronze layer tables
-    and validate the load process.
+    Manual load script for development and debugging.
+    Includes row previews (LIMIT 10) for quick inspection.
+    For production use, refer to bronze_load_proc.sql
 =========================================================
 */
-
--- CRM Customer Information
 
 TRUNCATE TABLE bronze.crm_cust_info;
 
