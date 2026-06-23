@@ -1,3 +1,10 @@
+/*
+=================================================
+Bronze Layer - DDL Script
+Creates raw tables for CRM and ERP source data.
+=================================================
+*/
+
 CREATE SCHEMA IF NOT EXISTS bronze;
 
 DROP TABLE IF EXISTS bronze.crm_cust_info;
