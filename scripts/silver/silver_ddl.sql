@@ -19,10 +19,11 @@ CREATE TABLE silver.crm_cust_info (
 DROP TABLE IF EXISTS silver.crm_prd_info;
 CREATE TABLE silver.crm_prd_info (
     prd_id INT,
+	cat_id VARCHAR(50),
     prd_key VARCHAR(50),
     prd_nm VARCHAR(100),
     prd_cost INT,
-    prd_line VARCHAR(10),
+    prd_line VARCHAR(50),
     prd_start_dt DATE,
     prd_end_dt DATE,
 	dwh_create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -30,17 +31,17 @@ CREATE TABLE silver.crm_prd_info (
 
 -- Table for sales_details.csv
 DROP TABLE IF EXISTS silver.crm_sales_details;
+
 CREATE TABLE silver.crm_sales_details (
     sls_ord_num VARCHAR(50),
     sls_prd_key VARCHAR(50),
     sls_cust_id INT,
-    sls_order_dt INT,  -- Stored as YYYYMMDD raw integer
-    sls_ship_dt INT,   -- Stored as YYYYMMDD raw integer
-    sls_due_dt INT,    -- Stored as YYYYMMDD raw integer
+    sls_order_dt DATE,
+    sls_ship_dt DATE,
+    sls_due_dt DATE,
     sls_sales INT,
     sls_quantity INT,
-    sls_price INT,
-	dwh_create_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    sls_price INT
 );
 DROP TABLE IF EXISTS silver.erp_cust_az12;
 CREATE TABLE silver.erp_cust_az12 (
