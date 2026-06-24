@@ -239,23 +239,7 @@ Through this project, I gained hands-on experience in:
 
 ---
 
-# 📸 Project Screenshots
 
-Add screenshots here:
-
-### Bronze Layer
-
-![Bronze Layer](screenshots/bronze.png)
-
-### Silver Layer
-
-![Silver Layer](screenshots/silver.png)
-
-### Gold Layer
-
-![Gold Layer](screenshots/gold.png)
-
----
 
 # 👨‍💻 Author
 
