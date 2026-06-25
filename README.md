@@ -1,8 +1,8 @@
 # SQL-DATA-WAREHOUSE
 
-# 🚀 SQL Data Warehouse Project | PostgreSQL Data Engineering Pipeline
+#  SQL Data Warehouse Project | PostgreSQL Data Engineering Pipeline
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the end-to-end development of a modern Data Warehouse using PostgreSQL following the Medallion Architecture (Bronze → Silver → Gold).
 
@@ -20,13 +20,13 @@ The project covers:
 
 ---
 
-# 🏗️ Architecture
+#  Architecture
 ![Architecture](architecture.png)
 
 
 ---
 
-# 🛠️ Technology Stack
+#  Technology Stack
 
 | Technology | Purpose                 |
 | ---------- | ----------------------- |
@@ -38,7 +38,7 @@ The project covers:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 DataWarehouse/
@@ -59,7 +59,7 @@ DataWarehouse/
 
 ---
 
-# 🥉 Bronze Layer
+#  Bronze Layer
 
 The Bronze Layer stores raw source data exactly as received from operational systems.
 
@@ -81,7 +81,7 @@ The Bronze Layer stores raw source data exactly as received from operational sys
 
 ---
 
-# 🥈 Silver Layer
+#  Silver Layer
 
 The Silver Layer performs data cleansing, validation, and standardization.
 
@@ -152,7 +152,7 @@ TO_DATE(sls_order_dt::TEXT,'YYYYMMDD')
 
 ---
 
-# 🥇 Gold Layer
+#  Gold Layer
 
 The Gold Layer provides business-ready analytical datasets optimized for reporting and dashboarding.
 
@@ -178,7 +178,7 @@ Potential Gold Layer Models:
 
 ---
 
-# 📊 Data Quality Checks
+#  Data Quality Checks
 
 The following validation checks were performed:
 
@@ -211,7 +211,7 @@ TO_DATE(date_column::TEXT,'YYYYMMDD')
 
 ---
 
-# 📈 Key Features
+#  Key Features
 
 * End-to-End Data Warehouse Design
 * PostgreSQL-Based ETL Pipeline
@@ -241,7 +241,7 @@ Through this project, I gained hands-on experience in:
 
 
 
-# 👨‍💻 Author
+#  Author
 
 **Sashi Preetham**
 
@@ -253,8 +253,8 @@ GitHub: [Your GitHub URL]
 
 ---
 
-# ⭐ Acknowledgements
+#  Acknowledgements
 
 This project was inspired by industry-standard Data Engineering practices and modern Data Warehouse architectures used in enterprise environments.
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a  on GitHub.
